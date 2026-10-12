@@ -24,7 +24,7 @@ jobs:
     env:
       BOT_NAME: github-actions[bot]
       BOT_EMAIL: 41898282+github-actions[bot]@users.noreply.github.com
-      FM_REPO: mozilla-l10n/fluent-migrations
+      FM_REPO: bcolsson/fluent-migrations
       SOURCE_REPO: mozilla-l10n/firefox-l10n-source
       SOURCE_BRANCH: update
       FM_PATH: fluent-migrations
