@@ -36,9 +36,9 @@ def env(name: str) -> str:
 
 
 # Repositories
-L10N_REPO = "mozilla-l10n/firefox-l10n"
-FM_REPO = "mozilla-l10n/fluent-migrations"
-SOURCE_REPO = "mozilla-l10n/firefox-l10n-source"
+L10N_REPO = "bcolsson/firefox-l10n"
+FM_REPO = "bcolsson/fluent-migrations"
+SOURCE_REPO = "bcolsson/firefox-l10n-source"
 # Local clones
 L10N_PATH = Path("firefox-l10n").resolve()
 FM_PATH = Path("fluent-migrations").resolve()

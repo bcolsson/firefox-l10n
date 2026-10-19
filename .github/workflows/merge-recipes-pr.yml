@@ -19,11 +19,11 @@ jobs:
       github.event.pull_request.head.repo.full_name == github.repository
     runs-on: ubuntu-latest
     env:
-      FM_REPO: mozilla-l10n/fluent-migrations
+      FM_REPO: bcolsson/fluent-migrations
     steps:
       - name: Merge fluent-migrations PR
         env:
-          GH_TOKEN: ${{ secrets.SYNC_PAT }}
+          GH_TOKEN: ${{ secrets.FLUENT_MIGRATION_PAT }}
           L10N_PR_URL: ${{ github.event.pull_request.html_url }}
         run: |
           # Find the open recipes PR linking to the merged PR, using the line

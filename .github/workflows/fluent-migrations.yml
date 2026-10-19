@@ -83,4 +83,4 @@ jobs:
         if: steps.recipes.outputs.found == 'true'
         run: python automation/.github/scripts/fluent_migration.py create-prs
         env:
-          GH_TOKEN: ${{ secrets.SYNC_PAT }}
+          GH_TOKEN: ${{ secrets.FLUENT_MIGRATION_PAT }}
