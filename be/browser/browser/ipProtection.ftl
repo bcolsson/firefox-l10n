@@ -111,6 +111,11 @@ ipprotection-site-inclusions-callout-title-lapsed-users = Паспрабуйце
 ipprotection-site-inclusions-callout-secondary-button-existing-users = Не цяпер
 ipprotection-site-inclusions-callout-secondary-button-lapsed-users = Адхіліць
 
+## Holiday Promotion Callout
+
+ipprotection-holiday-promo-primary-button = Адкрыць VPN
+ipprotection-holiday-promo-secondary-button = Адхіліць
+
 ## Panel
 
 # Also used for the callout shown in private browsing
